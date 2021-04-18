@@ -37,7 +37,7 @@ def postfix():
             s.push(int(i))
 
     if not s.isEmpty():
-        print('Answer : ','{:.2f}'.format(s.pop()))
+        print('Answer :','{:.2f}'.format(s.pop()))
     else:
         print('list is [] , cannot pop.')
 
